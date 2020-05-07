@@ -45,7 +45,9 @@ input[type="text"]::placeholder {
 
 
 /*===LightBox Photos===*/
-
+.lb-data .lb-details{
+    text-align:center;
+}
 
 
 
