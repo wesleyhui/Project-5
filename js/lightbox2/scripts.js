@@ -1,6 +1,5 @@
-
 $(document).ready( function(){
-    let images = document.getElementsByTagName('a');
+    let images = document.querySelectorAll('.photo-gallery a');
     $('.search').on('keyup', function(){
         let search = $('.search').val().toLowerCase();
 
